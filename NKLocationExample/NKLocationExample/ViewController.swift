@@ -32,6 +32,8 @@ class ViewController: UIViewController {
             
             print(location!.coordinate.latitude)
             print(location!.coordinate.longitude)
+            
+            locationLbl.text = "Lat: \(location!.coordinate.latitude)\n Long: \(location!.coordinate.longitude)"
         }
         
     }
