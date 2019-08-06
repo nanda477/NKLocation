@@ -1,6 +1,18 @@
 # NKLocation
 Simple  : Get Location(Lat &amp; long) with one line
 
+# Installation:
+
+# Using Cocoapods:
+  1. In Podfile use -> pod 'NKLocation'
+  
+  
+# Use Manually: 
+  1.Download file
+  2.Drag & drop Service.swift file in your project.
+  
+  
+  
 Step 1: In ViewDidLoad
 
         override func viewDidLoad() {
