@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EFCA81AC2F0ADB5C2C7CF9D8306CEFF /* Pods-NKLocationExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8023A93B51C31DEB210903BD5AF03EE /* Pods-NKLocationExample-dummy.m */; };
+		462B1D498B71A4BA843A32AD3906FE35 /* NKLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8886EBB90B4418370D81D9B29D19FCF /* NKLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A7B6C2055BF814CFCBC7D2B4418939 /* Pods-NKLocationExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD27A2F146E29B21C81A8749AB50DF4D /* Pods-NKLocationExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50D27750B410AAC6CF2ABB7CB083F05F /* NKLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AC738E7529FAE0792252577EA725A5 /* NKLocation-dummy.m */; };
+		684C4CB4A0ADF0E0F15862AD4AE94993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6A8CDD57403ABCCAB7C1B15BA0520FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9871E1AF394E6C84737FEC86E0786A62 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E2E81CB0186AFBEA47D1321731C32 /* Service.swift */; };
+		9E1F886CE8F57B874295E31A1C580547 /* NKLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E90E650DDBB6109A17CEE30ED0FF49B /* NKLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73A33761F1454713E51767850EB8FD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B36F505A81B4539196BEB71D052BBA4;
+			remoteInfo = NKLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D4B9032BA1607908BB04FB1B1791B01 /* Pods-NKLocationExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKLocationExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2511BDAFD9BA46D9475080FFE6CAC34F /* Pods-NKLocationExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKLocationExample-frameworks.sh"; sourceTree = "<group>"; };
+		27230A189A11BC97DDEC296024BC2FAC /* NKLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKLocation-prefix.pch"; sourceTree = "<group>"; };
+		280071E58093A38B79EAD5B96D4F31C8 /* NKLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKLocation.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79BF98FC2F164527EC7C1F52B1FEA281 /* Pods_NKLocationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NKLocationExample.framework; path = "Pods-NKLocationExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3D0CCAC65F3702829474DD3B728EB2 /* NKLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKLocation-Info.plist"; sourceTree = "<group>"; };
+		8DBCEAB36965209181B9608CD3F7A6CE /* NKLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKLocation.framework; path = NKLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD4266C03D3FA84602DCA2CF9DDAACE /* Pods-NKLocationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKLocationExample.release.xcconfig"; sourceTree = "<group>"; };
+		8E90E650DDBB6109A17CEE30ED0FF49B /* NKLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKLocation-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6442114979E06DE4E865C5B4A9A6C5B /* Pods-NKLocationExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKLocationExample-Info.plist"; sourceTree = "<group>"; };
+		B7AC738E7529FAE0792252577EA725A5 /* NKLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKLocation-dummy.m"; sourceTree = "<group>"; };
+		BD27A2F146E29B21C81A8749AB50DF4D /* Pods-NKLocationExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKLocationExample-umbrella.h"; sourceTree = "<group>"; };
+		BDA49FFAD0F7F828D021B4BFD21DC148 /* Pods-NKLocationExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKLocationExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1A67F5276B9C57BFACD9057EB5DC209 /* NKLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKLocation.modulemap; sourceTree = "<group>"; };
+		D8023A93B51C31DEB210903BD5AF03EE /* Pods-NKLocationExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKLocationExample-dummy.m"; sourceTree = "<group>"; };
+		E0C857CB5A93DF097C9B1466C54A3847 /* NKLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NKLocation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E626A54D961410BCC8CF70A73C79F311 /* Pods-NKLocationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKLocationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E8886EBB90B4418370D81D9B29D19FCF /* NKLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKLocation.h; path = NKLocation/NKLocation.h; sourceTree = "<group>"; };
+		F32897E99A7E8DA1F271B39791708B57 /* Pods-NKLocationExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NKLocationExample.modulemap"; sourceTree = "<group>"; };
+		F89E2E81CB0186AFBEA47D1321731C32 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = NKLocation/Service.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2591DD902738624C526821DB0F903AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684C4CB4A0ADF0E0F15862AD4AE94993 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CB52E2946E6C7028183ED425C1BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8CDD57403ABCCAB7C1B15BA0520FB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2E2E107F2C45F0AF00912AA0E89F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBCEAB36965209181B9608CD3F7A6CE /* NKLocation.framework */,
+				79BF98FC2F164527EC7C1F52B1FEA281 /* Pods_NKLocationExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67376EECD18119A9526FC21171E71A20 /* Pods-NKLocationExample */ = {
+			isa = PBXGroup;
+			children = (
+				F32897E99A7E8DA1F271B39791708B57 /* Pods-NKLocationExample.modulemap */,
+				BDA49FFAD0F7F828D021B4BFD21DC148 /* Pods-NKLocationExample-acknowledgements.markdown */,
+				1D4B9032BA1607908BB04FB1B1791B01 /* Pods-NKLocationExample-acknowledgements.plist */,
+				D8023A93B51C31DEB210903BD5AF03EE /* Pods-NKLocationExample-dummy.m */,
+				2511BDAFD9BA46D9475080FFE6CAC34F /* Pods-NKLocationExample-frameworks.sh */,
+				B6442114979E06DE4E865C5B4A9A6C5B /* Pods-NKLocationExample-Info.plist */,
+				BD27A2F146E29B21C81A8749AB50DF4D /* Pods-NKLocationExample-umbrella.h */,
+				E626A54D961410BCC8CF70A73C79F311 /* Pods-NKLocationExample.debug.xcconfig */,
+				8DD4266C03D3FA84602DCA2CF9DDAACE /* Pods-NKLocationExample.release.xcconfig */,
+			);
+			name = "Pods-NKLocationExample";
+			path = "Target Support Files/Pods-NKLocationExample";
+			sourceTree = "<group>";
+		};
+		8349C78CDA45E9BFB0C6E67FA013311E /* NKLocation */ = {
+			isa = PBXGroup;
+			children = (
+				E8886EBB90B4418370D81D9B29D19FCF /* NKLocation.h */,
+				F89E2E81CB0186AFBEA47D1321731C32 /* Service.swift */,
+				936D0D852711A2D450E4EDAC3653B5D2 /* Pod */,
+				D6604AD8A2DBB28DA6883DCE70DAD97E /* Support Files */,
+			);
+			name = NKLocation;
+			path = ../../NKLocation;
+			sourceTree = "<group>";
+		};
+		936D0D852711A2D450E4EDAC3653B5D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0C857CB5A93DF097C9B1466C54A3847 /* NKLocation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FE4DD8A40305ADDB790BCFD5997D8BED /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5C2E2E107F2C45F0AF00912AA0E89F3B /* Products */,
+				EE20F0DC80D805B50E754A2393B9EB43 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6604AD8A2DBB28DA6883DCE70DAD97E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A67F5276B9C57BFACD9057EB5DC209 /* NKLocation.modulemap */,
+				280071E58093A38B79EAD5B96D4F31C8 /* NKLocation.xcconfig */,
+				B7AC738E7529FAE0792252577EA725A5 /* NKLocation-dummy.m */,
+				8C3D0CCAC65F3702829474DD3B728EB2 /* NKLocation-Info.plist */,
+				27230A189A11BC97DDEC296024BC2FAC /* NKLocation-prefix.pch */,
+				8E90E650DDBB6109A17CEE30ED0FF49B /* NKLocation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../NKLocationExample/Pods/Target Support Files/NKLocation";
+			sourceTree = "<group>";
+		};
+		EE20F0DC80D805B50E754A2393B9EB43 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67376EECD18119A9526FC21171E71A20 /* Pods-NKLocationExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE4DD8A40305ADDB790BCFD5997D8BED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8349C78CDA45E9BFB0C6E67FA013311E /* NKLocation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F4A6E85D302E34838DA8B8504B7F7B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1F886CE8F57B874295E31A1C580547 /* NKLocation-umbrella.h in Headers */,
+				462B1D498B71A4BA843A32AD3906FE35 /* NKLocation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC41F3DFFEA701CFFE5D559C28EDF702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A7B6C2055BF814CFCBC7D2B4418939 /* Pods-NKLocationExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B36F505A81B4539196BEB71D052BBA4 /* NKLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5991246725DDBEDF5FE48E4800522173 /* Build configuration list for PBXNativeTarget "NKLocation" */;
+			buildPhases = (
+				6F4A6E85D302E34838DA8B8504B7F7B3 /* Headers */,
+				F660373ECAF4C0BA14A73B6BF9604E24 /* Sources */,
+				B9CB52E2946E6C7028183ED425C1BF72 /* Frameworks */,
+				836C8DDB21C6786871F866BE3D484698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKLocation;
+			productName = NKLocation;
+			productReference = 8DBCEAB36965209181B9608CD3F7A6CE /* NKLocation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AB4155CFC3C92FF0BEB96BF915EA89F /* Pods-NKLocationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC1D9DF0BE21F9A440B191F8754FA29 /* Build configuration list for PBXNativeTarget "Pods-NKLocationExample" */;
+			buildPhases = (
+				BC41F3DFFEA701CFFE5D559C28EDF702 /* Headers */,
+				D28B4C80D25994E95C3048E2B155F834 /* Sources */,
+				2591DD902738624C526821DB0F903AB1 /* Frameworks */,
+				FA2ADD8C6BBC72BF24EFB19C87C19656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F8401A7643AC94C3513BC27F87BC9D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NKLocationExample";
+			productName = "Pods-NKLocationExample";
+			productReference = 79BF98FC2F164527EC7C1F52B1FEA281 /* Pods_NKLocationExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5C2E2E107F2C45F0AF00912AA0E89F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B36F505A81B4539196BEB71D052BBA4 /* NKLocation */,
+				8AB4155CFC3C92FF0BEB96BF915EA89F /* Pods-NKLocationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836C8DDB21C6786871F866BE3D484698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2ADD8C6BBC72BF24EFB19C87C19656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28B4C80D25994E95C3048E2B155F834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFCA81AC2F0ADB5C2C7CF9D8306CEFF /* Pods-NKLocationExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F660373ECAF4C0BA14A73B6BF9604E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D27750B410AAC6CF2ABB7CB083F05F /* NKLocation-dummy.m in Sources */,
+				9871E1AF394E6C84737FEC86E0786A62 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F8401A7643AC94C3513BC27F87BC9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NKLocation;
+			target = 2B36F505A81B4539196BEB71D052BBA4 /* NKLocation */;
+			targetProxy = 73A33761F1454713E51767850EB8FD8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F509C61806ECD5B0B3952547D5ACA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280071E58093A38B79EAD5B96D4F31C8 /* NKLocation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKLocation/NKLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKLocation/NKLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NKLocation/NKLocation.modulemap";
+				PRODUCT_MODULE_NAME = NKLocation;
+				PRODUCT_NAME = NKLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29B069357EA911D439DFA86CF58EBF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E626A54D961410BCC8CF70A73C79F311 /* Pods-NKLocationExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKLocationExample/Pods-NKLocationExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKLocationExample/Pods-NKLocationExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		911C335B76D3BA6C3E92E3B056420EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD4266C03D3FA84602DCA2CF9DDAACE /* Pods-NKLocationExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKLocationExample/Pods-NKLocationExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKLocationExample/Pods-NKLocationExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B9C1972C0DA4C281369580D1B7EFC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280071E58093A38B79EAD5B96D4F31C8 /* NKLocation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKLocation/NKLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKLocation/NKLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NKLocation/NKLocation.modulemap";
+				PRODUCT_MODULE_NAME = NKLocation;
+				PRODUCT_NAME = NKLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC1D9DF0BE21F9A440B191F8754FA29 /* Build configuration list for PBXNativeTarget "Pods-NKLocationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B069357EA911D439DFA86CF58EBF7A /* Debug */,
+				911C335B76D3BA6C3E92E3B056420EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5991246725DDBEDF5FE48E4800522173 /* Build configuration list for PBXNativeTarget "NKLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F509C61806ECD5B0B3952547D5ACA36 /* Debug */,
+				9B9C1972C0DA4C281369580D1B7EFC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module NKLocation {
+  umbrella header "NKLocation-umbrella.h"
+
+  export *
+  module * { export * }
+}

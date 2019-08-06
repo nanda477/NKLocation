@@ -1,0 +1,16 @@
+PODS:
+  - NKLocation (1.0.0)
+
+DEPENDENCIES:
+  - NKLocation (from `../NKLocation/`)
+
+EXTERNAL SOURCES:
+  NKLocation:
+    :path: "../NKLocation/"
+
+SPEC CHECKSUMS:
+  NKLocation: 1ec562e87216bbe32344b76a1b052e0491079ad5
+
+PODFILE CHECKSUM: bbd138be5a683d7ef7dc2a277399920b06a79bd4
+
+COCOAPODS: 1.7.3
