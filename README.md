@@ -56,6 +56,7 @@ Step3:
     
     
     
+    Note: For better understand check example project # NKLocationExample
     
     
     
